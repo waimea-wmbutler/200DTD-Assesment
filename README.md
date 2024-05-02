@@ -18,4 +18,4 @@ All test changes can be found
 [here](testing.md)
 
 ## Project Mascot
-![alt text](images/hmmmmmmmmm.jpg)
+![alt text](<images/hmmmmmmmmm im dead.jpg>)
