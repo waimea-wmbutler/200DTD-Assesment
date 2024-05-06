@@ -1,9 +1,9 @@
-# 200DTD-Assesment
+# 200DTD-Assessment
 
 Family organiser
 
 ## Purpose
-This project is a system that allows a user to  find information about members of their family aswell as add and remove family members from the page
+This project is a system that allows a user to  find information about members of their family as-well as add and remove family members from the page
 
 ## Features
 

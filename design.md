@@ -1,6 +1,6 @@
  The Design of a Database-Linked Website for NCEA Level 2
 
-Project Name: **Family Organiser**
+Project Name: **Family or Person Organiser**
 
 Project Author: **William Butler**
 
@@ -66,18 +66,19 @@ When i am building the website, i need to be exact with my planning and making s
 
 Try to Have a Positive Social Impact
 
-This implication is extremely important as there are plenty of ways to make sure that peoples infoprmation is kept safe, with even more 
+This implication is extremely important as there are plenty of ways to make sure that peoples information is kept safe, with even more ways to make it so that the information isn't kept safe.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+I will need to take extra care when making the site, so that i don't add ways to track or find out extra information about the people in my website, e.g. emails, ph numbers.
 
  
-### IMPLICATION NAME HERE
+### Privacy
 
-Replace this text with a clear explanation of what the implication means.
+Making Sure End-User Data Remains Private
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+This implication is also extremely important as i am putting peoples information in the site
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+When i build the site i will have a look at password protecting my site and making sure that my users information is extremely important.
+
 -------------------------------------------------
 
 ## Design, Development and Testing Log
