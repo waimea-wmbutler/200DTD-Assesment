@@ -41,7 +41,7 @@ Getting Things Done Quickly and Easily
 
 This implication is important as when the users are using the website, that everything works as it should, and doesn't slow down during use
 
-When i am making the website, i will need to be cautious of errors in my code, at the end of the development i will need to test all the features in the site
+When i am making the website, i will need to be cautious of weird mistakes that make the site not work as it should
 
 
 ### Aesthetic
