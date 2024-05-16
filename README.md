@@ -12,10 +12,10 @@ This project is a system that allows a user to  find information about members o
 
 ## System Design and Testing
 All system design features can be found 
-[here](design.dm)
+[here](design.md)
 
 All test changes can be found 
-[here](testing.md)
+[here](development.md)
 
 ## Project Mascot
 ![alt text](<images/hmmmmmmmmm im dead.jpg>)
