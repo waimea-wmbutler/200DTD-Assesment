@@ -15,7 +15,7 @@ Assessment Standards: **91892** and **91893**
 
 Made Functions map for website
 
-![Alt text](image-1.png)
+![Alt text](images/image-1.png)
 
 I talked to my family and they said...
 >
