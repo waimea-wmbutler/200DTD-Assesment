@@ -1,8 +1,8 @@
 # Development of a Database-Linked Website for NCEA Level 2
 
-Project Name: **Family Organiser**
+Project Name: **PROJECT NAME HERE**
 
-Project Author: **William Butler**
+Project Author: **YOUR NAME HERE**
 
 Assessment Standards: **91892** and **91893**
 
@@ -15,25 +15,22 @@ Assessment Standards: **91892** and **91893**
 
 Made Functions map for website
 
-![Alt text](images/Untitled-2024-05-16-1429.png)
-
-I talked to my family and they said..
->The design for the flow chart was good.
-
-### 27-05-24 -to- 30-05-24
-
-Figma
 ![Alt text](images/image-1.png)
-Started Wire frame. version one
 
+I talked to my family and they said...
+>
 
-### 10-06-24
+### DATE HERE
 
-Working on colours in figma
+Replace this test with what you are working on
 
-![Alt text](<images/Figma-colour V1.png>)
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
-These new design with the colour is finished and ready for feedback
+### DATE HERE
+
+Replace this test with what you are working on
+
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
 ### DATE HERE
 
