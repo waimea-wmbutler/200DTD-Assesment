@@ -86,12 +86,12 @@ When i build the site i will have a look at password protecting my site and maki
 
 ### Database Structure
 
-Place a image here that shows the *final design* of your database: tables, fields and relationships.
+![Alt text](images/MYSQLV1.png)
 
 ### User Interface Design
 
-Place images here that show your *final design* of your UI: layout, colours, etc.
 
+![Alt text](<images/Figma-colour V1.png>)
 
 -------------------------------------------------
 
