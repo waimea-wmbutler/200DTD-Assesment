@@ -1,12 +1,6 @@
 <?php require_once '_config.php'; ?>
 
 <?php
-$myinteger = 1;
-$mystring = "Yes" . $myinteger;
-
-$myinteger = 0;
-$mystring = "No" . $myinteger;
-
 
 $page = basename($_SERVER['SCRIPT_NAME']);
 
@@ -20,7 +14,10 @@ $page = basename($_SERVER['SCRIPT_NAME']);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title><?= SITE_NAME ?></title>
-
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fluid.classless.pink.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
