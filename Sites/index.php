@@ -10,21 +10,21 @@ include 'Partial/top.php';
 <?php
 	$db = connectToDB();
 	consoleLog($db);
-	$query = 'SELECT * FROM tasks ORDER BY priority DESC';
+	$query = 'SELECT * FROM people ORDER BY priority DESC';
 
 	try {
 		$stmt = $db->prepare($query);
 		$stmt->execute();
-		$tasks = $stmt->fetchAll();
+		$people = $stmt->fetchAll();
 	}
 	catch(PDOException $e) {
 		consoleLog($e->getMessage(), ' List Fetch', ERROR);
 		die('There was an error getting data from the database');
 	}
-	consoleLog($tasks);
+	consoleLog($people);
 
-	foreach($tasks as $task) {
-		echo $task['name'];
+	foreach($people as $people) {
+		echo $people['forname'];
 	}
 
 ?>
