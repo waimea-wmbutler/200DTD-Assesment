@@ -42,11 +42,9 @@ Working on colours in figma
 
 These new design with the colour is finished and ready for feedback.
 
-### DATE HERE
+### Unknown-07-24
 
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Starting development of the base design and functionality of the website
 
 ### DATE HERE
 
