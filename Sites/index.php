@@ -12,10 +12,10 @@ include 'Partial/top.php';
 	consoleLog($db);
 	$query = 'SELECT people.forename,
 					 people.surname,
-					 information.dob
-					 FROM people ORDER BY forename DESC
-				     JOIN information on people.id = information.id';
-
+					 information.favActivity
+					 FROM people
+				     JOIN information on people.forename = information.forename';
+					 
 	try {
 		$stmt = $db->prepare($query);
 		$stmt->execute();
@@ -27,34 +27,30 @@ include 'Partial/top.php';
 	}
 	consoleLog($people);
 
-	foreach($people as $person) {
-		echo $person['forename'];
-	}
-
 echo '<ul id="people">';	
 echo '<table>
 <tr>
-	<th>Forename</th>
-	<th>Surname</th>
-	<th>Date Of Birth</th>
+	<th> Forename </th>
+	<th> Surname </th>
+	<th> Favourite Activity </th>
 </tr>';
 
 foreach ($people as $person)  {
-echo '<tr>';
+	echo '<tr>';
 
-echo 	'<td>' . $person['forename'] . '</td>';
-echo 	'<td>' . $person['surname'] . '</td>';
-echo 	'<td>' . $person['dob'] . '</td>';
-echo '</tr>';
+	echo '<td>' . $person['forename'] . '</td>';
+	echo '<td>' . $person['surname'] . '</td>';
+	echo '<td>' . $person['favActivity'] . '</td>';
+	echo '</tr>';
 }
 
 echo '</table>';
-
 echo '</ul>';
 
 echo '<div id="add-button">
-<a href="form-Person.php">
-	Add
-</a>
-<div>';
+		<a href="forum-person.php">
+			Add
+		</a>
+	<div>';
+
 ?>
