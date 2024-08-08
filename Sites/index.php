@@ -1,3 +1,5 @@
+<!-- Front Page -->
+
 <?php
 require  '_function.php';
 include 'Partial/top.php'; 
@@ -7,6 +9,7 @@ include 'Partial/top.php';
 
 <p>Who are you looking for? </p>
 
+<!-- Connect To Database -->
 <?php
 	$db = connectToDB();
 	consoleLog($db);
@@ -27,6 +30,8 @@ include 'Partial/top.php';
 	}
 	consoleLog($people);
 
+/* The Table To Show All People Inside the DataBase  */
+
 echo '<ul id="people">';	
 echo '<table>
 <tr>
@@ -46,6 +51,13 @@ foreach ($people as $person)  {
 
 echo '</table>';
 echo '</ul>';
+
+/* Addition And Reduction To the Database Buttons */
+/*echo '<div id="Remove-button">
+		<a href= "delete-task.php"; 
+		</a>
+	</div>'; 
+*/
 
 echo '<div id="add-button">
 		<a href="forum-person.php">
