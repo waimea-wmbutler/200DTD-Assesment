@@ -13,11 +13,7 @@ include 'Partial/top.php';
 <?php
 	$db = connectToDB();
 	consoleLog($db);
-	$query = 'SELECT people.forename,
-					 people.surname,
-					 information.favActivity
-					 FROM people
-				     JOIN information on people.forename = information.forename';
+	$query = 'SELECT * FROM people';
 					 
 	try {
 		$stmt = $db->prepare($query);
@@ -37,7 +33,7 @@ echo '<table>
 <tr>
 	<th> Forename </th>
 	<th> Surname </th>
-	<th> Favourite Activity </th>
+	<th> More</th>
 </tr>';
 
 foreach ($people as $person)  {
@@ -45,7 +41,7 @@ foreach ($people as $person)  {
 
 	echo '<td>' . $person['forename'] . '</td>';
 	echo '<td>' . $person['surname'] . '</td>';
-	echo '<td>' . $person['favActivity'] . '</td>';
+	echo '<td><a href="view-person.php?id=' . $person['id'] . '">View</a></td>';
 	echo '</tr>';
 }
 
@@ -53,14 +49,14 @@ echo '</table>';
 echo '</ul>';
 
 /* Addition And Reduction To the Database Buttons */
-/*echo '<div id="Remove-button">
-		<a href= "delete-task.php"; 
-		</a>
-	</div>'; 
-*/
+// echo '<div id="Remove-button">
+// 		<a href= "delete-task.php"; >
+//			DELETE
+// 		</a>
+// 	</div>'; 
 
 echo '<div id="add-button">
-		<a href="forum-person.php">
+		<a href="form-person.php">
 			Add
 		</a>
 	<div>';

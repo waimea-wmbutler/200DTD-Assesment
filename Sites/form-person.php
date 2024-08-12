@@ -13,13 +13,8 @@ require '_function.php';
 	<label>Surname</label>
 	<input name ="surname" type="text" placeholder="e.g. Smith "required>
 	<label> Date Of Birth</label>
-	<input name ="dob" type="text" placeholder="e.g. 08-04-1996" required>
-	<label> Favourite Food</label>
-	<input name ="favFood" type="text" placeholder="e.g. Burger" required>
-	<label>Favourite Activity</label>
-	<input name ="favActivity" type="text" placeholder="e.g. Playing Golf" required>
-	<label> Children</label>
-	<input name ="children" type="int" placeholder="e.g. 3" required>
+	<input name ="dob" type="date" >
+
 	
 	<input type ="submit" value="add">
 

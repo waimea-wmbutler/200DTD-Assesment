@@ -16,7 +16,6 @@ $page = basename($_SERVER['SCRIPT_NAME']);
     <title><?= SITE_NAME ?></title>
     <link
         rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fluid.classless.pink.min.css"
     />
     <link rel="stylesheet" href="css/styles.css">
 </head>
