@@ -4,24 +4,25 @@ require  '_function.php';
 include 'Partial/top.php'; 
 ?>
 
-<h1>Adding A New Person To The Family-Tree (Database)</h1>
+<h1>Adding New Personal Information To The Family-Tree (Database)</h1>
 
 <?php
 consoleLog($_POST, 'POST Data');
 
-$id = 
-$for = 			$_POST['forename'];
-$sur = 			$_POST['surname'];
-$dob = 			$_POST['dob'];
 
-echo '<p> Forename: '    . $for;
-echo '<p> Surname: '    . $sur;
-echo '<p> Date Of Birth: ' . $dob;
+$top = 			$_POST['topic'];
+$inf = 			$_POST['info'];
+
+
+echo '<p> Topic: '    . $top;
+echo '<p> Info: '    . $inf;
+
 
 /* Data Base Connection */ 
 $db = connectToDB();
 
-$query = 'INSERT INTO people (`forename`, `surname`, `dob` ) VALUES (?, ?, ?)';
+$query = 'INSERT INTO people (`topic`, `info` ) VALUES (?, ?)';
+
 
 try {
 	$stmt = $db->prepare($query);

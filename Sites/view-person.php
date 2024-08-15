@@ -38,7 +38,7 @@ $id = $_GET['id'];
 	}
 	catch(PDOException $e) {
 		consoleLog($e->getMessage(), ' Person Info Fetch', ERROR);
-		die('There was an error getting person info data from the database');
+		die(' There was an error getting person info data from the database');
 	}
 	consoleLog($infos);
 
@@ -46,11 +46,9 @@ $id = $_GET['id'];
 		echo $info['topic'] . ' - ' . $info['info'];
 	}
 
-	$id == 'person'
-
-/*echo '<div id="add-button">
-		<a href="form-info.php?person='$id'">
+echo '<div id="add-button">
+		<a href="form-info.php?person=' . $id . '">
 			Add
 		</a>
-	<div>'; */
+	<div>'; 
 ?> 

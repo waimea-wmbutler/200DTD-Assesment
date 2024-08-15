@@ -9,7 +9,7 @@ $id = $_GET['person'];
 ?>
 
 <h2> New Attribute </h2>
-<form method="post"action="form-info.php">
+<form method="post"action="add-info.php">
 <!-- Input Information About Person -->
 	<label>Topic</label>
 	<input name ="topic" type="text" placeholder="e.g. Favourite Food" required>
