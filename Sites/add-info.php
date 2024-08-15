@@ -1,4 +1,4 @@
-<!-- The Addition of Person Confirmation Screen -->
+<!-- The Addition of Personal Information Confirmation Screen -->
 <?php
 require  '_function.php';
 include 'Partial/top.php'; 

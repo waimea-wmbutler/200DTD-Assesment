@@ -9,6 +9,7 @@ consoleLog($_GET, 'POST Data');
 $id = $_GET['id'];
 
 
+
 	$db = connectToDB();
 
 	$query = 'SELECT * FROM people WHERE id=?';
@@ -24,8 +25,7 @@ $id = $_GET['id'];
 	}
 	consoleLog($person);
 
-/* The Table To Show All People Inside the DataBase  */
-
+/* The list To Show Stuff About Person Inside the DataBase  */
 
 	echo '<h1>' . $person['forename'] . ' ' . $person['surname'] . '</h1>';
 
@@ -43,9 +43,9 @@ $id = $_GET['id'];
 	consoleLog($infos);
 
 	foreach ($infos as $info) {
-		echo $info['topic'] . ' - ' . $info['info'];
+		echo $info['topic'] . ' - ' . $info['info'] . " - - - " ;
 	}
-
+/* Adding Information Inside the */
 echo '<div id="add-button">
 		<a href="form-info.php?person=' . $id . '">
 			Add

@@ -21,7 +21,7 @@ echo '<p> Date Of Birth: ' . $dob;
 /* Data Base Connection */ 
 $db = connectToDB();
 
-$query = 'INSERT INTO people (`forename`, `surname`, `dob` ) VALUES (?, ?, ?)';
+$query = 'INSERT INTO people (`forename`, `surname`, `dob` ) VALUES ( ?, ?, ?)';
 
 try {
 	$stmt = $db->prepare($query);

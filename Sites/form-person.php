@@ -1,4 +1,4 @@
-<!-- Form To Add Person -->
+<!-- Form To Add Personal Information -->
 
 <?php
 include 'Partial/top.php'; 
