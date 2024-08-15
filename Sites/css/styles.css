@@ -97,12 +97,12 @@ p{
 th {
     background-color: darkslategray;
     justify-content: space-between;
-    border-spacing:20px 0;
+    border-spacing:20px 20px;
 }
 td  {
     background-color: slategrey;
     justify-content: space-between;
-    border-spacing:20px 0;
+    border-spacing:20px 20px;
 }
 /* FORMS ****************************************************/
 form{

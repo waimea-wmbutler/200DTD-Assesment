@@ -24,6 +24,9 @@ I talked to my family and they said..
 Also finished DB design
 ![Alt text](images/MYSQLV1.png)
 
+Also Finished the Flow Diagram 
+![Alt text](images/Untitled-2024-05-16-1429.png)
+
 My end user had no idea what i was talking about...
 ### 27-05-24 -to- 30-05-24
 

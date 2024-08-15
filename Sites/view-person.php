@@ -46,12 +46,11 @@ $id = $_GET['id'];
 		echo $info['topic'] . ' - ' . $info['info'];
 	}
 
+	$id == 'person'
 
-	echo '<div id="add-button">
-		<a href="form-info.php?person='.$id.'">
+/*echo '<div id="add-button">
+		<a href="form-info.php?person='$id'">
 			Add
 		</a>
-	<div>';
-
-
-?>
+	<div>'; */
+?> 
