@@ -52,5 +52,5 @@ Starting development of the base design and functionality of the website.
 ### 15-08-24 To 26-08-24
 
 Finalised web-base for Completion
-Although Database Has Not Connected To Website Properlly And Funtionally, Most Test Data Showed Through
-
+Although Database Has Not Connected To Website Properlly And Funtionally, Most Test Data Showed And Made A Good Showoff
+PHP validated and commented
