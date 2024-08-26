@@ -103,7 +103,10 @@ Place a image here that shows the *actual database structure* that you implement
 
 ### User Interface Design
 
-Place screenshots and notes here that show your *actual system UI* in action.
+This is the finnished ui in action
+
+https://github.com/user-attachments/assets/737e9974-0fcf-40f6-9850-f60a64184117
+
 
 
 -------------------------------------------------
@@ -111,21 +114,35 @@ Place screenshots and notes here that show your *actual system UI* in action.
 ## Review and Evaluation
 
 ### Meeting the Needs of the Users
-
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+The needs of my users were quite simple, with the majority of end users over the age of 40, the design had to be simple, efficient and look great.
+These needs were somewhat met, with the final Design being funtional to a point, and although the design was simple and easy to use, the greater website was not.
 
 ### Meeting the System Requirements
 
-Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
+The system requirements for this project were to be so that the website could be used on a computor as well as a phone. although no tersting was done on a phone screen, the website used an unsentered table and links, which would have shown poorly on a phone screen
 
-### Review of IMPLICATION NAME HERE
+### Review of Funtionality
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+My website was not funtional to the standard i wanted, however the design was moderatly funtional with existing data and this was not set to usefull or avalible
 
-### Review of IMPLICATION NAME HERE
+### Review of Usability
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+The Design of the website was useable, and in the last final devolopment days the site was not usable, and this was a last minuite job with many of the features i had initially planned on adding not making the final design.
 
-### Review of IMPLICATION NAME HERE
+### Review of Aesthetic
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+When i had completed the table and the other esential parts of the design, i removed the pico css and added an old desing from another website.
+This caused the table and other parts of the css to fall apart and out of place. I did not fix this 
+
+### Review of End-User
+
+The end user was a hard requirement to complete, and it was not met.
+
+### Review of Social
+
+When i was designing the website, the idea of a limited capability website came to mind, this would use features like blockers for harsh, mean or rude language. This was not met
+
+### Review of Privacy
+
+Privacy was a Large part of the design, with the manyt people going to be added to the webstie, in needed a lot of measures, some included: a login system, not showing anything personal other that favourite topics and photos.
+These were not met becasue of the trouble i had during database connection
