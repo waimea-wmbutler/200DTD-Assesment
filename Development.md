@@ -49,12 +49,8 @@ These new design with the colour is finished and ready for feedback.
 
 Starting development of the base design and functionality of the website.
 
-### 15-08-24
+### 15-08-24 To 26-08-24
 
 Finalised web-base for Completion
+Although Database Has Not Connected To Website Properlly And Funtionally, Most Test Data Showed Through
 
-### DATE HERE
-
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
