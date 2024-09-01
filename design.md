@@ -86,8 +86,8 @@ When i build the site i will have a look at password protecting my site and maki
 
 ### Database Structure
 The structure is simple, however funtional
-![Alt text](![image](https://github.com/user-attachments/assets/9fb1cd18-4bb5-4805-832a-8080b54cf4f7)
-)
+![Screenshot 2024-09-02 103904](https://github.com/user-attachments/assets/ffa8ae54-dfb3-4125-a071-e458e542056f)
+
 
 ### User Interface Design
 The UI is simple and 
@@ -107,7 +107,7 @@ The final design of the database
 This is the finnished ui in action
 
 https://github.com/user-attachments/assets/737e9974-0fcf-40f6-9850-f60a64184117
-
+may not work becasue wasnt done with stream, restart should fix
 
 
 -------------------------------------------------
