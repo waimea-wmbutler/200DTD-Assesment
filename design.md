@@ -85,12 +85,12 @@ When i build the site i will have a look at password protecting my site and maki
 ## Final System Design
 
 ### Database Structure
-
-![Alt text](images/MYSQLV1.png)
+The structure is simple, however funtional
+![Alt text](![image](https://github.com/user-attachments/assets/9fb1cd18-4bb5-4805-832a-8080b54cf4f7)
+)
 
 ### User Interface Design
-
-
+The UI is simple and 
 ![Alt text](<images/Figma-colour V1.png>)
 
 -------------------------------------------------
@@ -98,8 +98,9 @@ When i build the site i will have a look at password protecting my site and maki
 ## Completed System
 
 ### Database Structure
+The final design of the database
+![image](https://github.com/user-attachments/assets/59fc6b46-44ad-4d78-8b17-1cf90d9c665c)
 
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
 
 ### User Interface Design
 
